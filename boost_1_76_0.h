@@ -1,10 +1,10 @@
-#ifndef BOOST_NO_EXCEPTIONS
-#define BOOST_NO_EXCEPTIONS
-#include <boost/throw_exception.hpp>
-void boost::throw_exception(std::exception const &e)
-{
-}
-void boost::throw_exception(std::exception const &e, boost::source_location const &loc)
-{
-}
+// "Copyright 2021 Francisco Aguilera"
+
+#ifndef BOOST_1_76_0_H_
+#define BOOST_1_76_0_H_
+
+#ifndef BOOST_EXCEPTION_DISABLE
+#define BOOST_EXCEPTION_DISABLE
 #endif
+
+#endif  // BOOST_1_76_0_H_
